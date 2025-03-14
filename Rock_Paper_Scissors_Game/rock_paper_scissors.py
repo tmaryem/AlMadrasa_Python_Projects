@@ -12,7 +12,10 @@ def is_winner(player, pc):
 
 def play_game():
     # Start the game
-    print("The game is starting between you and the PC.")
+    print("The game is between you and the PC. Each time, you choose one of the three options: "
+            "'rock,' 'paper,' or 'scissors.' The PC also randomly selects one of these options, "
+            "and then we determine the winner. The rules are simple: rock beats scissors, scissors beat paper, "
+            "and paper beats rock. Let the game begin!")
 
     # List of valid choices
     choices = ['r', 'p', 's']
