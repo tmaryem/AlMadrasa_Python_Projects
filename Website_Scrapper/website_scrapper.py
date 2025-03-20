@@ -49,11 +49,10 @@ def main():
 
         # Saving the DataFrame to an Excel file
         df_book.to_excel("books.xlsx", index=False)
-        
+
         print("Scraping completed successfully! Data saved in 'books.xlsx'.")
     else:
         print("No data scraped. Please check the URL or try again later!!")
-
 
 if __name__ == "__main__":
      main()
