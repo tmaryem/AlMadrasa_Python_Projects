@@ -46,9 +46,10 @@ def main():
     # If data is scraped successfully, create a DataFrame and save it to an Excel file
     if books_data:
         df_book = pd.DataFrame(books_data)
-        
+
         # Saving the DataFrame to an Excel file
         df_book.to_excel("books.xlsx", index=False)
+        
         print("Scraping completed successfully! Data saved in 'books.xlsx'.")
     else:
         print("No data scraped. Please check the URL or try again later!!")
